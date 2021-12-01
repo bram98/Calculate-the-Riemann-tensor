@@ -7,7 +7,7 @@ First input what coordinates you want to use by modyfing this line
 (* change X to be a list of your variables *)
 X = {t, r, \[Theta], \[Phi]};
 ```
-Make sure these coordinates do not coincide with one of the dummy variables <img src="https://latex.codecogs.com/svg.image?\rho&space;,\sigma&space;,\mu&space;,\nu,&space;\lambda" title="\rho ,\sigma ,\mu ,\nu, \lambda" />. If you do want to use one of these make sure you replace those dummy variables in the code below with other variables.
+You are not restricted to use 4 coordinates. Make sure these coordinates do not coincide with one of the dummy variables <img src="https://latex.codecogs.com/svg.image?\rho&space;,\sigma&space;,\mu&space;,\nu,&space;\lambda" title="\rho ,\sigma ,\mu ,\nu, \lambda" />. If you do want to use one of these make sure you replace those dummy variables in the code below with other variables.
 
 Next you can decide if you want to show only independent components by changing this line to `True` or `False`
 ```
