@@ -9,7 +9,7 @@ X = {t, r, \[Theta], \[Phi]};
 ```
 You are not restricted to use 4 coordinates. Make sure these coordinates do not coincide with one of the dummy variables <img src="https://latex.codecogs.com/svg.image?\rho&space;,\sigma&space;,\mu&space;,\nu,&space;\lambda" title="\rho ,\sigma ,\mu ,\nu, \lambda" />. If you do want to use one of these make sure you replace those dummy variables in the code below with other variables.
 
-Next you can decide if you want to show only independent components by changing this line to `True` or `False`
+Next you can decide if you want to show only independent components by changing the following line to `True` or `False`. If set to true it will hide components that are duplicate because of symmetry. For example it would show <img src="https://latex.codecogs.com/svg.image?\Gamma^r_{tr}&space;" title="\Gamma^r_{tr} " /> but not <img src="https://latex.codecogs.com/svg.image?\Gamma^r_{rt}&space;" title="\Gamma^r_{rt} " /> because the Christoffel symbols are symmetric in their lower indices. If set to `False` all non-zero components are shown.
 ```
 (* if you set this to true components that are the same because of 
 symmetry will not be displayed *)
